@@ -1,0 +1,26 @@
+ /* Estilos propios de la agenda (se cargan después de Bootstrap) */
+:root {
+    --agenda-verde: #00a67e;
+}
+
+.navbar-brand {
+    letter-spacing: .02em;
+}
+
+.portada {
+    background: linear-gradient(135deg, #0b0f14, #12324a);
+    color: #fff;
+    border-radius: 1rem;
+}
+
+.btn-agenda {
+    background: var(--agenda-verde);
+    border-color: var(--agenda-verde);
+    color: #fff;
+}
+
+.btn-agenda:hover {
+    background: #008a69;
+    border-color: #008a69;
+    color: #fff;
+}
