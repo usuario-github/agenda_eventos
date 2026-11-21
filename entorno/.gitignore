@@ -1,0 +1,20 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Entorno virtual
+entorno/
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+
+# Secretos (los usaremos en la clase 8)
+.env
+
+# Editor y sistema operativo
+.vscode/
+Thumbs.db
+.DS_Store
